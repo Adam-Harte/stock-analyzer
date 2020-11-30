@@ -1,0 +1,1 @@
+export const calculateEquityGrowthRate = (income: number, stockEquity: number, shareholderEquity: number): number => (income - stockEquity) / shareholderEquity;

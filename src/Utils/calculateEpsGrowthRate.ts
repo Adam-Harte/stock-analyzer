@@ -1,0 +1,1 @@
+export const calculateEpsGrowthRate = (startEps: number, endEps: number): number => ((endEps - startEps) / startEps) * 100;

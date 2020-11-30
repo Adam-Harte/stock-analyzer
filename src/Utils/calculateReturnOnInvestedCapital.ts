@@ -1,0 +1,1 @@
+export const calculateReturnOnInvestedCapital = (income: number, dividends: number, debt: number, shareholderEquity: number): number => (income - dividends) / (debt + shareholderEquity);

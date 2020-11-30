@@ -1,0 +1,1 @@
+export const calculateFreeCashFlowGrowthRate = (startFreeCashFlow: number, endFreeCashFlow: number): number => (endFreeCashFlow - startFreeCashFlow) / startFreeCashFlow;

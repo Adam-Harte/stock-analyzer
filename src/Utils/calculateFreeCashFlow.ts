@@ -1,0 +1,1 @@
+export const calculateFreeCashFlow = (operatingCashflow: number, capitalExpenditure: number): number => operatingCashflow - capitalExpenditure;
