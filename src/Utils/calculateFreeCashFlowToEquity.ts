@@ -1,0 +1,1 @@
+export const calculateFreeCashFlowToEquity = (cash: number, capitalExpenditure: number, debt: number): number => cash - capitalExpenditure + debt;

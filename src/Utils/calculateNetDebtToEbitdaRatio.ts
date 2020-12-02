@@ -1,0 +1,1 @@
+export const calculateNetDebtToEbitdaRation = (debt: number, cash: number, ebitda: number): number => (debt - cash) / ebitda;
