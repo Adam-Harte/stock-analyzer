@@ -1,0 +1,1 @@
+export const calculatePriceToOperatingCashFlow = (marketCapitilisation: number, operatingCashFlow: number): number => marketCapitilisation / operatingCashFlow;

@@ -1,0 +1,1 @@
+export const calculateOperatingCashFlowGrowthRate = (startOperatingCashFlow: number, endOperatingCashFlow: number): number => (endOperatingCashFlow - startOperatingCashFlow) / startOperatingCashFlow;
