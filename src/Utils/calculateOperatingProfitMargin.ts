@@ -1,1 +1,1 @@
-export const calculateOperatingProfitMargin = (operatingIncome: number, revenue: number): number => operatingIncome / revenue;
+export const calculateOperatingProfitMargin = (operatingIncome: number, revenue: number): string => (operatingIncome / revenue).toFixed(2);

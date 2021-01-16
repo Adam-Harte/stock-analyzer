@@ -1,1 +1,1 @@
-export const calculateDebtToCapitalRatio = (debt: number, shareholderEquity: number): number => debt / (debt + shareholderEquity);
+export const calculateDebtToCapitalRatio = (debt: number, shareholderEquity: number): string => (debt / (debt + shareholderEquity)).toFixed(2);

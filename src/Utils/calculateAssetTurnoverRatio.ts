@@ -1,1 +1,1 @@
-export const calculateAssetTurnoverRatio = (revenue: number, assets: number): number => revenue / assets;
+export const calculateAssetTurnoverRatio = (revenue: number, assets: number): string => (revenue / assets).toFixed(2);

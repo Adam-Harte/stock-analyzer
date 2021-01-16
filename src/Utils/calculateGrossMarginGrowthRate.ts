@@ -1,3 +1,1 @@
-export const calculateGrossMarginGrowthRate = (revenue: number, costOfGoodsSold: number): number => {
-  return (revenue - costOfGoodsSold) / revenue * 100;
-}
+export const calculateGrossMarginGrowthRate = (revenue: number, costOfGoodsSold: number): string => ((revenue - costOfGoodsSold) / revenue * 100).toFixed(2);

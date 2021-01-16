@@ -1,1 +1,1 @@
-export const calculateFreeCashFlowToEquity = (cash: number, capitalExpenditure: number, debt: number): number => cash - capitalExpenditure + debt;
+export const calculateFreeCashFlowToEquity = (cash: number, capitalExpenditure: number, debt: number): string => (cash - capitalExpenditure + debt).toFixed(2);

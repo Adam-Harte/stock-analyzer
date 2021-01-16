@@ -1,1 +1,1 @@
-export const calculatePriceToFreeCashFlowRatio = (marketCapitilisation: number, freeCashFlow: number): number => marketCapitilisation / freeCashFlow;
+export const calculatePriceToFreeCashFlowRatio = (marketCapitilisation: number, freeCashFlow: number): string => (marketCapitilisation / freeCashFlow).toFixed(2);

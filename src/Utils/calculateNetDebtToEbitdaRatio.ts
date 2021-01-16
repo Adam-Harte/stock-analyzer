@@ -1,1 +1,1 @@
-export const calculateNetDebtToEbitdaRation = (debt: number, cash: number, ebitda: number): number => (debt - cash) / ebitda;
+export const calculateNetDebtToEbitdaRatio = (debt: number, cash: number, ebitda: number): string => ((debt - cash) / ebitda).toFixed(2);
