@@ -1,0 +1,1 @@
+export const calculateDividendCoverageRatio = (eps: number, dps: number): string => (eps / dps).toFixed(2);

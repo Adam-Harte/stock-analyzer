@@ -1,0 +1,1 @@
+export const calculatePriceToOperatingCashFlow = (marketCapitilisation: number, operatingCashFlow: number): string => (marketCapitilisation / operatingCashFlow).toFixed(2);

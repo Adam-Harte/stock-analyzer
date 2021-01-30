@@ -1,0 +1,1 @@
+export const calculateTotalShareholderReturn = (currentPrice: number, purchasePrice: number, dividends: number): number => ((currentPrice - purchasePrice) + dividends) / purchasePrice;

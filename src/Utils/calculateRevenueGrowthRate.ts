@@ -1,0 +1,1 @@
+export const calculateRevenueGrowthRate = (startRevenue: number, endRevenue: number, years: number): string => ((((endRevenue / startRevenue) * Math.pow(1, years)) -1) * 100).toFixed(2);
