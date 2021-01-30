@@ -35,9 +35,6 @@ export const StockSearch: React.FC = () => {
     }, 6000);
   };
 
-  console.log(overview);
-  console.log(cashFlow);
-
   return (
     <StockContext.Provider value={{
       overview,
